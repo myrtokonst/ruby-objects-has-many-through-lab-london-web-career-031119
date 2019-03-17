@@ -2,7 +2,6 @@ class Artist
  attr_accessor :name, :artist, :genre
 
  @@all = []
- require "pry"
  def initialize (name)
     @name = name
     @@all << self
